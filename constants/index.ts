@@ -1,18 +1,18 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'What is NU App', label: 'How NU App works?' },
   { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'facilities ', label: 'Facilities ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
-// CAMP SECTION
+// CAMPUS SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  '/athletic_center.png',
+  '/library.png',
+  '/coffee_shops.png',
+  '/dormitory.png',
 ];
 
 // FEATURES SECTION
@@ -20,30 +20,30 @@ export const FEATURES = [
   {
     title: 'Real maps can be offline',
     icon: '/map.svg',
-    variant: 'green',
+    variant: 'orange',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'We provide a solution for you to be able to use our application when exploring, yes offline maps you can use at any time there is no signal at the location',
   },
   {
     title: 'Set an adventure schedule',
     icon: '/calendar.svg',
-    variant: 'green',
+    variant: 'orange',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Schedule an adventure with friends. On holidays, there are many interesting places from NU app. That way, there's no more discussion",
   },
   {
     title: 'Technology using augment reality',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Technology uses augmented reality as a guide to your exploring guide in the university. Already supported by the latest technology without an internet connection',
   },
   {
     title: 'Many new locations every month',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Lots of new locations every month, because we have a community of students and faculty members who share their best experiences at NU',
   },
 ];
 
@@ -52,17 +52,17 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About NU app',
       'Press Releases',
       'Environment',
-      'Jobs',
+      'Services',
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Exploring xixixi', 'Exploring NU App', 'Exploring facilities'],
   },
 ];
 
@@ -70,7 +70,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Email Officer', value: 'nu_app@gmail.com' },
   ],
 };
 
@@ -79,7 +79,7 @@ export const SOCIALS = {
   links: [
     '/facebook.svg',
     '/instagram.svg',
-    '/twitter.svg',
+    '/X.svg',
     '/youtube.svg',
     '/wordpress.svg',
   ],
